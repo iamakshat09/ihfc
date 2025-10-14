@@ -1,0 +1,16 @@
+.heading{
+    background-color: thistle;
+    color:aliceblue;
+}
+
+#newheading{
+    background-color: aquamarine;
+    color: brown;
+    text-align:right
+}
+
+p{
+    background-color:blanchedalmond;
+    color:blueviolet;
+    text-align: center;
+}
