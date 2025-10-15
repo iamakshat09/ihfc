@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    background-color: antiquewhite;
+    border:2px solid black;
+}
+
+.content{
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.projects ul{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    list-style: none;
+}
+
+.hobbies ol{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    list-style: none;
+}
+
+li{
+    background-color: darkgray;
+    border:1px solid black;
+    margin:3px
+}
+
+.fav-web{
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.footer{
+    background-color: antiquewhite;
+    border:2px solid black;
+}
+
+@media (max-width:700px){
+    .header{
+        flex-direction:column;
+    }
+    .projects ul{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .hobbies ol{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
